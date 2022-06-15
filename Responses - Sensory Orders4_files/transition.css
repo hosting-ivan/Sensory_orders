@@ -1,0 +1,7 @@
+.button											{ transition: all 0.7s ease-out; }
+.navRespButton									{ transition:all 1s; }
+header .user_nav a								{ transition: all 0.7s ease-out; }
+header .user_nav a img							{ transition: all 0.4s ease-out; }
+header .user_nav_resp a							{ transition: all 0.7s ease-out; }
+header .user_nav_resp a img						{ transition: all 0.4s ease-out; }
+.contbox										{ transition: .5s all; }
