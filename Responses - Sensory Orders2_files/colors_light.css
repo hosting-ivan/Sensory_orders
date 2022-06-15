@@ -1,0 +1,40 @@
+a 												{ color: black; }
+a:hover											{ color: red; }
+
+*:focus 										{ outline-color: black; outline-width: 2px; }
+
+header 		 									{ border-bottom-color:red; }
+header nav a									{ color: #a6a6a6; }
+header nav a.act, header nav a:hover			{ color: black; }
+header .ulatwienia-dostepu-button				{ color: black; }
+
+.body, .body-responses							{ background-color: #e9e9e9; }
+.body .background								{ background-image: url(/res/img/lay/light/bg.svg); }
+.content										{ background-color: white; box-shadow: 0px 9px 6px 3px rgba(0,0,0,0.12); }
+
+.codebar 										{ background-image: url(/res/img/lay/light/main_bar.svg); }
+.responsesbar 									{ background-image: url(/res/img/lay/light/voices_bar.svg); }
+
+.content-black									{ background-color: black; color: white; }
+
+footer .deklaracja_dostepnosci a				{ color: black; }
+
+.wystawa-desc									{ background-color: white; }
+.audiodeskrypcja								{ background-color: white; }
+
+.modal-body										{ background-color: white; color: black; }
+
+.highslide-html									{ background-color: white !important; }
+
+.dostepnosc_settings							{ background-color: black; color: white; }
+.dostepnosc_settings a							{ color: white; }
+.dostepnosc_settings a:focus 					{ outline-color: white; }
+.dostepnosc_theme .light						{ border-color: white; color: black; background:white; }
+.dostepnosc_theme .dark							{ border-color: white; color: white; background:black; }
+.dostepnosc_theme .lightyellow					{ border-color: yellow; color: black; background:yellow; }
+.dostepnosc_theme .darkyellow					{ border-color: yellow; color: yellow; background:black; }
+
+.pagi a											{ color: #a6a6a6; }
+.pagi a.act, .pagi a:hover 						{ color: black; }
+
+a.mainSwitchInput								{ color:black; }

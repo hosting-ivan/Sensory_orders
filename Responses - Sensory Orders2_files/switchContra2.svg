@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 51.5" style="enable-background:new 0 0 100 51.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#010101;}
+</style>
+<g>
+	<path class="st0" d="M74.2,51.5H25.8C11.6,51.5,0,40,0,25.8C0,11.6,11.6,0,25.8,0h48.5C88.4,0,100,11.6,100,25.8
+		C100,40,88.4,51.5,74.2,51.5z M25.8,7C15.4,7,7,15.4,7,25.8c0,10.3,8.4,18.7,18.7,18.7h48.5c10.3,0,18.7-8.4,18.7-18.7
+		C93,15.4,84.6,7,74.2,7H25.8z"/>
+</g>
+<g id="Ellipse_2">
+	<circle class="st0" cx="73.8" cy="25.8" r="13.6"/>
+</g>
+</svg>
