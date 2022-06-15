@@ -1,0 +1,12 @@
+var thisJsScript = $('[src="/res/js/js.js"]'); // or better regexp to get the file name..
+var theme = thisJsScript.attr('data-theme');
+var animacje = thisJsScript.attr('data-animacje');
+var animationTime = animacje==1 ? 1000 : 1;
+
+$(document).ready(function(){
+
+	$('.ulatwienia-dostepu-button').click(function(){
+		$('.dostepnosc_settings_expandable').slideToggle();
+	});
+	
+});	

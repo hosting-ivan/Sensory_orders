@@ -1,0 +1,150 @@
+/*
+@font-face {
+	font-family: 'Styrene A Web';
+	src: url('/res/fonts/StyreneA-Regular-Web.eot');
+	src: url('/res/fonts/StyreneA-Regular-Web.eot?#iefix') format('embedded-opentype'),
+	url('/res/fonts/StyreneA-Regular-Web.woff2') format('woff2'),
+	url('/res/fonts/StyreneA-Regular-Web.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Styrene A Web';
+	src: url('/res/fonts/StyreneA-Bold-Web.eot');
+	src: url('/res/fonts/StyreneA-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('/res/fonts/StyreneA-Bold-Web.woff2') format('woff2'),
+	url('/res/fonts/StyreneA-Bold-Web.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*:focus { outline-style: solid; outline-width: 2px; }
+#skip_link_content:focus { outline-style: none; outline-width: 0px; }
+
+html, body										{ height: 100%; /*cursor: url('/res/img/lay/cursor1.svg') 12 12, auto !important;*/ }
+
+a												{ text-decoration:none; /*cursor: url('/res/img/lay/cursor2.svg') 12 12, auto !important;*/ }
+a:hover											{ text-decoration:none !important; }
+b,strong										{ font-weight:700; }
+
+h1												{  }
+h2												{  }
+
+h1.doNotChangeFont								{ display:inline-block; }
+
+hr												{ border-width:1px 0 0 0; }
+
+iframe 											{ width: 100%; }
+
+em, i 											{ font-style: italic; }
+
+.clr											{ display:block; clear:both; }
+.clearfix:after									{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.wrap											{ position:relative; width:1150px !important; margin:0 auto; }
+
+body 											{ width:100%; min-width:320px; height:100%; font-family: 'Roboto', sans-serif; font-feature-settings: "liga", "kern"; font-weight: 400; font-style: normal; font-stretch: normal; font-size: 14px; line-height:1.3em; }
+header 		 									{ width:100%; position:relative; border-bottom-width:3px; border-bottom-style: solid; padding:20px; }
+header .logo 									{ height:65px; }
+header .logo img								{ display:block; height:100%; }
+
+header nav										{ font-size: 2.1rem; font-weight:bold; line-height:2rem; padding-left: 0 !important; padding-right:0 !important; }
+header nav a									{  }
+
+header .ulatwienia-dostepu-button				{ font-weight: bold; }
+header .ulatwienia-dostepu-button img			{ height:65px; }
+
+.body, .body-responses							{ flex-grow: 1; position: relative; overflow-y: auto; }
+.body .background, .body-responses .background-responses	{ background-position: center 80px;  background-size: auto; background-repeat:no-repeat; }
+.content, .content-responses					{ position:relative; max-width: 1160px; margin: auto; z-index:2; }
+
+ul.skip_links									{ display: block; list-style-type: none; margin:0; padding:0; position: absolute; top: 10px; left: 10px; }
+ul.skip_links li								{ margin:0; padding:0; }
+ul.skip_links li a								{ white-space: nowrap;  padding: 5px 10px; opacity: 0; position: absolute; top: 10px; left: -9999px;  background:white; z-index:100; }
+ul.skip_links li a:focus						{ opacity: 1; left: 10px; }
+
+.napis											{ z-index:1; position: absolute; top: 500px; left:0; right:0; width:345px; margin:0 auto; transform: translateX(660px); }
+
+.codebar 										{ height:30px; background-size:cover; background-repeat: no-repeat; }
+
+	footer											{ height: 200px; }
+	footer .logo 									{ height:50px; display:block; }
+	footer .logo img								{ display:block; height:100%; }
+	footer .deklaracja_dostepnosci a				{ font-size: 1.25rem; }
+	
+	footer .logos img								{ height: 50px; }
+
+.banery_slider_wstrzymaj	 					{ position: absolute; top: 20px; left: 20px; padding: 5px 10px 8px 10px; font-size: 1.2rem; z-index: 10; /*cursor: pointer;*/ }
+.banery_slider_wstrzymaj div 					{ display: inline-block; font-size: 1.7rem; border-radius: 100px; }
+
+.bigModals .modal-dialog 						{ max-width: 80%; }
+
+a.switchInput									{ display:flex; flex-direction: row; align-items:center; }
+a.switchInput span								{ margin:0 5px; }
+a.switchInput img								{ height:30px; }
+
+@media (max-width: 1700px)
+{
+	.napis										{ display:none; }
+}
+
+/*xl*/
+@media (max-width: 1200px)
+{
+
+	header nav									{ font-size: 1.65rem; line-height:1.7rem; }
+}
+
+/*lg*/
+@media (max-width: 992px)
+{
+	header .nav									{ flex-flow: column wrap !important; align-content: flex-end !important; text-align:right; }
+	header .ulatwienia-dostepu					{ text-align:right; }
+	.bigModals .modal-dialog 					{ max-width: 95%; }
+	a.switchInput img							{ height:23px; }
+}
+
+/*md*/
+@media (max-width: 768px)
+{
+	header .logo 								{ height:40px; }
+	header .ulatwienia-dostepu-button img		{ height:40px; }
+	header nav									{ font-size: 1.35rem; line-height:1.7rem; }
+	
+	.body .background							{ background-image:none !important; background-color: none; }
+	
+}
+/*sm*/
+@media (max-width: 576px)
+{
+	header .nav									{ align-content: center !important; text-align:center; padding-top: 20px; }
+}
+
+
+/** sensory orders page *********************************************************************************/
+
+	p											{ margin-bottom: 30px; }
+
+	.content			{ font-size: 1.25rem; line-height:1.75rem; }
+	h1.headerH1			{ font-size: 1.7rem; line-height: 1.2em; display: inline; font-style: italic; }
+	.headertxt			{ font-size: 1.7rem; line-height: 1.2em; display: inline; }
+	
+	.photos .col									{ height: 210px; background-position:center center; background-size: cover; }
+	.photos1 .col:nth-child(1)						{ background-image: url(/res/img/so/so11.png); }
+	.photos1 .col:nth-child(2)						{ background-image: url(/res/img/so/so12.png); }
+	.photos1 .col:nth-child(3)						{ background-image: url(/res/img/so/so13.png); }
+	.photos2 .col:nth-child(1)						{ background-image: url(/res/img/so/so21.gif); }
+	.photos2 .col:nth-child(2)						{ background-image: url(/res/img/so/so22.gif); }
+	
+	.content-black p 								{ margin-bottom: 1em; }
+	
+	@media(max-width: 768px) {
+		.photos .col								{ height: 120px; }
+	}
+	
+/** sensory orders page *********************************************************************************/
